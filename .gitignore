@@ -1,0 +1,41 @@
+# Ignore build directories
+/bin/
+/build/
+/lib/
+/obj/
+
+# Ignore temporary files
+*.o
+*.obj
+*.exe
+*.out
+*.log
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.vcxproj
+*.sln
+
+# Ignore debug files
+/debug/
+/release/
+
+# Ignore all files created by macOS
+.DS_Store
+
+# Ignore all files created by Linux systems
+*~
+
+# Ignore files created by Visual Studio Code
+.vscode/
+
+# Ignore logs
+*.log
+
+# Ignore node_modules (for JavaScript projects)
+node_modules/
+
+# Ignore .env files (for storing sensitive environment variables)
+.env
+
