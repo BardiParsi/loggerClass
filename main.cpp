@@ -32,7 +32,7 @@ int main() {
     // Initiation object
     asioContext context;
     // Add address of somewhere we wish to connect to port 80
-    tcpEndPoint endPoint(boost::asio::ip::make_address("127.0.0.1", ec), 3000);
+    tcpEndPoint endPoint(boost::asio::ip::make_address("EndPoint string value", ec), "Port Number int value");
     // Create a socket with the "context" object
     tcpSocket socket(context);
     // Tell the socket to connect to the end point
